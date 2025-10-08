@@ -14,7 +14,7 @@ public class Act7 {
 		System.out.println("Dime tu nombre:");
 		String nombre = sc.next();
 		
-			CuentaCorriente cc1 = new CuentaCorriente("23883359K", "Rubén");
+		CuentaCorriente cc1 = new CuentaCorriente(dni, nombre);
 		cc1.mostrarInfo();
 		
 		System.out.println("¿Cuanto quieres ingresar? (Si no quieres ingresar, pon un 0)");
@@ -22,7 +22,7 @@ public class Act7 {
 		cc1.ingresarDinero(ingreso);
 		cc1.mostrarInfo();
 		
-		System.out.println("¿Cuanto quieres retirar? (Si no quieres ingrsar, pon un 0)");
+		System.out.println("¿Cuanto quieres retirar? (Si no quieres retirar, pon un 0)");
 		double retiro = sc.nextDouble();
 		cc1.retirarDinero(retiro);
 		cc1.mostrarInfo();
