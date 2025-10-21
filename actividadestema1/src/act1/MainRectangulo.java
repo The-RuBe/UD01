@@ -1,8 +1,8 @@
-package actividadestema1;
+package act1;
 
 import java.util.Scanner;
 
-public class Actividad1 {
+public class MainRectangulo {
 
 	public static void main(String[] args) {
 		
@@ -10,10 +10,10 @@ public class Actividad1 {
 
 Scanner sc = new Scanner(System.in);
 
-System.out.println("Indica la base del rectángulo");
+System.out.println("Indica la base del rectángulo: ");
 double base = sc.nextDouble();
 
-System.out.println("Indica la altura del rectángulo");
+System.out.println("Indica la altura del rectángulo: ");
 double altura = sc.nextDouble();
 
 Rectangulo r1 = new Rectangulo(base,altura);

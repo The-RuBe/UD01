@@ -1,4 +1,4 @@
-package actividadestema1;
+package act18;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package actividadestema1;
+package act1;
 
 public class Rectangulo {
 

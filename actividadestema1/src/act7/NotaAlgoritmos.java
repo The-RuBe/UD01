@@ -1,4 +1,4 @@
-package actividadestema1;
+package act7;
 
 public class NotaAlgoritmos {
 	//Atributos
