@@ -17,8 +17,6 @@ public class Act6 {
 		System.out.println("Introduce las ventas en kg de peras");
 		
 		int numerop=ventasperas.nextInt();
-		
-		System.out.println("Los beneficios anuales son ",2.35*numerom+1.95*numerop);
 			
 	}
 
